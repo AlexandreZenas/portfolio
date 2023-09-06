@@ -1,0 +1,64 @@
+/* Desktop Screen */
+div.MyPhoto{
+    width: 30%;
+    margin:  0 51px 0 7%;
+    text-align: right;
+    position: relative;
+}
+div.MyPhoto img{ 
+    top: 0;
+    left: 0;
+    margin: 0 0 0 calc(50px - 15px);
+    position: absolute;
+    object-position: top;
+    object-fit: cover;
+    height: 300px;
+    width: 300px;
+}
+div.MyPhoto .borderPhoto{
+    height: 285px;
+    width: 285px;
+    margin: 50px 0 0 0;
+    border: 15px solid rgb(111, 111, 111, 0.6);
+}
+/* mobile screen */
+.whoImtitles > div.MyPhoto{ 
+    display: none;
+    overflow: hidden;
+    height: 0;
+}
+@media screen and (max-width: 992px ), (max-height: 520px){
+	.whoImContent > div.MyPhoto{
+		height: 0;
+        overflow: hidden;
+        display: none;
+    }   
+    .whoImtitles > div.MyPhoto{ 
+        display: block;
+        overflow: auto;
+        height: auto;
+        width: 100%;
+        margin: 10vh auto;
+        display: flex;
+        justify-content: center;    
+    }
+    div.MyPhoto .borderPhoto{
+        height: 200px;
+        width: 200px;
+        margin:25px 0 0 0;        
+        border: 10px solid rgb(111, 111, 111, 0.6);
+    }
+    .whoImtitles div.MyPhoto img{ 
+        height: 200px;
+        width: 200px;
+        top: 0;
+        left: calc(50% - 75px);
+        align-items: center;
+        margin: 0 auto;
+        position: absolute;
+        object-position: top;
+        object-fit: cover;
+
+    }
+
+}

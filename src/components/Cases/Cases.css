@@ -1,0 +1,56 @@
+a#cases{
+    background-color: #FCFCFC;
+    width: 32%;
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+div.casesImg{
+    width: 90%;
+    height: 200px;
+    margin: 5% auto;
+        /* object-fit não funciona, usei display flex e overflow hidden pra centralizar e conter a imagem */
+    /* overflow: hidden;
+    display: flex;
+    text-align: center;
+    align-items: center; */
+}
+    div.casesImg img{
+        border-radius: 10px;
+        width: 100%;
+        height: 100%;
+        object-position: center;
+        object-fit: cover;
+    }
+#cases div.casesTexts{
+    margin: 0 10%;
+    font-family: Inter;
+    font-style: normal;
+    line-height: normal;
+    font-weight: 200;
+}
+div.casesTexts h2{
+    color: #000;
+    font-size: 1.3rem;
+    font-weight: 200;
+}
+div.casesTexts p{
+    color: #6F6F6F;
+    font-size: 1.2rem;
+    margin-bottom: 5%;
+}
+
+@media screen and (max-width: 992px ), (max-height: 520px) {
+    a#cases{
+        width: 49%;
+    }
+}
+@media screen and (max-width: 480px) {
+    a#cases{
+        width: 90%;
+        margin: 0 auto
+    }
+}

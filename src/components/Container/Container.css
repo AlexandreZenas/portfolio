@@ -1,0 +1,100 @@
+.container{
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+section#containerMain{
+    width: 100%;
+    background-color: #FCFCFC;
+    padding: 5% 0;
+}
+#containerMain div.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#containerMain div.containerMainTitles{
+    width: 50%;
+    padding:0 0 0 10px;
+    margin-bottom: 5%;
+}
+    .containerMainTitles h1{
+        color: rgba(22, 22, 22, 0.85);
+        font-family: Playfair Display;
+        font-size: 6.5rem;
+        font-weight: 700;
+    }
+    .containerMainTitles p{
+        color: #6F6F6F;
+        font-family: Playfair Display;
+        font-size: 1.5rem;
+        width: 400px;
+        font-weight: 400;
+    }
+#containerMain div.containerMainImage{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    div.containerMainImage img{
+        width: 85%;
+        height: 85%;
+    }
+@media screen and (max-width: 992px ), (max-height: 520px) {
+    .containerMainTitles h1{
+        font-size: 5rem;
+    }
+    .containerMainTitles p{
+        font-size: 1.2rem;
+        width: 320px;
+    }
+        div.containerMainImage img{
+            width: 100%;
+            height: 100%;
+        }
+}
+@media screen and (max-width: 768px ), (max-height: 520px) {
+    #containerMain div.container{
+        flex-direction: column;
+        justify-content: center;
+    }
+    #containerMain div.containerMainTitles{
+        width: 100%;
+        text-align: center;
+    }
+    .containerMainTitles p{
+        text-align: center;
+        margin: 0 auto;
+    }
+    #containerMain div.containerMainImage{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 768px ), (max-height: 520px) {
+    #containerMain div.container{
+        flex-direction: column;
+        justify-content: center;
+        margin: 10vh auto;
+    }
+    #containerMain div.containerMainTitles{
+        width: 100%;
+        text-align: center;
+    }
+    .containerMainTitles p{
+        text-align: center;
+        margin: 0 auto;
+    }
+    #containerMain div.containerMainImage{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 768px ), (max-height: 520px) {
+    .containerMainTitles h1{
+        font-size: 3.5rem;
+    }
+    .containerMainTitles p{
+        width: 250px;
+        font-size: 1rem;
+    }
+}
