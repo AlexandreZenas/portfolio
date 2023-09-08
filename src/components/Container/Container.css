@@ -28,26 +28,38 @@ section#containerMain{
         color: #6F6F6F;
         font-family: Playfair Display;
         font-size: 1.5rem;
-        width: 400px;
+        width: 80%;
         font-weight: 400;
     }
 #containerMain div.containerMainImage{
     width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 450px;
 }
     div.containerMainImage img{
-        width: 85%;
-        height: 85%;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        object-position: center;
     }
-@media screen and (max-width: 992px ), (max-height: 520px) {
+@media screen and (max-width: 991px ), (max-height: 520px) {
+    #containerMain div.container{
+        flex-direction:column;
+        justify-content: center;
+        margin: 10vh auto;
+    }
+    #containerMain div.containerMainTitles{
+        width: 100%;
+    }
+    #containerMain div.containerMainImage{
+        width: 80%;
+    }
     .containerMainTitles h1{
         font-size: 5rem;
     }
     .containerMainTitles p{
-        font-size: 1.2rem;
-        width: 320px;
+        font-size: 1.5rem;
+        width: 80%;
+        margin: 0;
     }
         div.containerMainImage img{
             width: 100%;
@@ -55,46 +67,14 @@ section#containerMain{
         }
 }
 @media screen and (max-width: 768px ), (max-height: 520px) {
-    #containerMain div.container{
-        flex-direction: column;
-        justify-content: center;
-    }
-    #containerMain div.containerMainTitles{
-        width: 100%;
-        text-align: center;
-    }
     .containerMainTitles p{
-        text-align: center;
-        margin: 0 auto;
-    }
-    #containerMain div.containerMainImage{
-        width: 80%;
+        font-size: 1.5rem;
+        width: 95%;
+        margin: 0;
     }
 }
-@media screen and (max-width: 768px ), (max-height: 520px) {
-    #containerMain div.container{
-        flex-direction: column;
-        justify-content: center;
-        margin: 10vh auto;
-    }
-    #containerMain div.containerMainTitles{
-        width: 100%;
-        text-align: center;
-    }
-    .containerMainTitles p{
-        text-align: center;
-        margin: 0 auto;
-    }
-    #containerMain div.containerMainImage{
-        width: 80%;
-    }
-}
-@media screen and (max-width: 768px ), (max-height: 520px) {
+@media screen and (max-width: 492px ), (max-height: 520px) {
     .containerMainTitles h1{
-        font-size: 3.5rem;
-    }
-    .containerMainTitles p{
-        width: 250px;
-        font-size: 1rem;
+        font-size: 4rem;
     }
 }
