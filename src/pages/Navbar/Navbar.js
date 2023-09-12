@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Navbar.css';
 import { Link } from 'react-router-dom';
+import '../../components/animations/KeyFrames.css'
 
 export default function Navbar() {
     const [menuOpen, setMenuOpen] = useState(false) ;
@@ -10,7 +11,7 @@ export default function Navbar() {
     }
     return (
         <header>
-        <div className='navBar' style={{backgroundColor: '#110C01', height: '80px', color:'#EEEEED'}}>   
+        <div className='navBar'>   
             <nav className='navContainer'>
                 <Link to='/' className='logo'>
                     <h1>AZ</h1>
@@ -18,7 +19,7 @@ export default function Navbar() {
                 <div className='navMenu'>
                     <Link to='/Projects'>Projetos</Link>
                     <Link to='/About'>Sobre</Link>
-                    <Link to='/'>Blog</Link>
+                    {/* <Link to='/Blog'>Blog</Link> */}
                     <Link to='/Contact'>Contato</Link>
                 </div>  
                 <div className='navMobile'>
@@ -30,7 +31,7 @@ export default function Navbar() {
                             <img src={'assets/icons/close.svg'} alt='closeIcon'></img></div>
                         <Link to='/Projects'style={{borderTop: '1px solid'}}>Projetos</Link>
                         <Link to='/About'>Sobre</Link>
-                        <Link to='/'>Blog</Link>
+                        {/* <Link to='/Blog'>Blog</Link> */}
                         <Link to='/Contact'>Contato</Link>
                     </div>
                 </div>

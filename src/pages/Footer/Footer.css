@@ -5,6 +5,7 @@ footer#footer{
     display: flex;
     align-items: center;
     justify-content: center;
+    animation: opacity-visible 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 2s backwards;
 }
 
 .footerTitle h2{

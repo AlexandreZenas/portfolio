@@ -45,7 +45,7 @@ export const contentMainContainer = [
     {
         image:'assets/images/photoBanner.png',
         title: 'Sobre',
-        text: ' Confira alguns dos meus projetos e cases em Design e desenvolvimento de interface.'
+        text: ' Ainda em desenvolvimento :/'
     },
     {
         image:'assets/images/photoBanner.png',

@@ -1,6 +1,7 @@
 main#mainBanner{
     height: calc(100vh - 80px);
     min-height: 500px;
+
     background-image: url(/public/assets/images/officeBackground.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -8,11 +9,12 @@ main#mainBanner{
     display: flex;
     align-items: center;
     justify-content: center;
-
+    animation: scale-up-center 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s backwards;
 }
 .container div.mainTitles{
     font-family: 'inter', 'roboto', sans-serif;
     color: #FCFCFC;
+    animation: slide-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 2s backwards;
     }
     div.mainTitles h1{
         font-size: 4.2rem;
@@ -30,6 +32,7 @@ main#mainBanner{
     div.mainTitles p{
         font-size: 1.15rem;
         font-weight: 100;
+        animation: slide-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 2.5s backwards;
     }
 /* media query mainBanner*/
 @media screen and (max-width: 768px ), (max-height: 520px) {
@@ -44,6 +47,7 @@ section#whoIm{
     padding: 8% 0;
     background-color: #FCFCFC;
     box-shadow: inset 0 -6px 4px 0px rgba(0, 0, 0, .25);
+    animation: opacity-visible 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 2s backwards;
 }
 /* section#whoIm div.container{
     margin-bottom: 5%;
@@ -85,6 +89,7 @@ section#whoIm{
 section#samples{
     padding: 8% 0;
     background-color: #EEEEED;
+    animation: opacity-visible 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 2s backwards;
 }
 #samples div.samplesTitle{
     display: flex;

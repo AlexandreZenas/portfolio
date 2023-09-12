@@ -6,6 +6,7 @@ export default function Cases ({link, image, title, text}) {
     return (
         <a id="cases" href={link} rel="noopener noreferrer">
             <div className="casesImg">
+                <div className='openCase'>ver mais</div>
                 <img src={image}  alt={title}/>
             </div>
             <div className="casesTexts">

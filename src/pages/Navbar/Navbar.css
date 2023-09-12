@@ -2,6 +2,7 @@
     background-color: #110C01;
     height: 80px ;
     color: #EEEEED ;
+    animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) .5s backwards;
 }
   .navBar nav.navContainer{
     margin: 0 auto;
@@ -22,6 +23,7 @@
         font-weight: 300;
         margin:0 0 0 5vw;
         letter-spacing: -1.2rem;
+        padding-right: 20px;
     }
     div.navMenu {
         display: none;
@@ -41,6 +43,7 @@ div.navMobile{
     overflow: visible;
     height: auto;
     margin-right: 5vw;
+    z-index: 999;
 }
 .navMobile div.navBurguer{
     text-align: right;
@@ -58,8 +61,8 @@ div.navMobile{
     align-items: center;
     align-content: center;
     gap: 2px;
-    transition: 1s;
-    z-index: 999;
+    transition: 1s ;
+    clear: both;    
 }
 div.menuMobile{
     position: fixed;
