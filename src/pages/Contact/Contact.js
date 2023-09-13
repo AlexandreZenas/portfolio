@@ -1,5 +1,5 @@
 import './Contact.css';
-import SendEmail from '../../components/SendEmail/SendEmail';
+import EmailForm from '../../components/EmailForm/EmailForm';
 import { contentMainContainer } from '../../mocks/mocks';
 import Container from '../../components/Container/Container';
 import Navbar from '../Navbar/Navbar';
@@ -15,7 +15,7 @@ export default function Contact() {
                 <div className='sendEmailTitle'>
                     <h2>Me envie um email</h2>
                 </div>
-                <SendEmail/>
+                <EmailForm/>
             </div>
         </section>
         <Footer/>
