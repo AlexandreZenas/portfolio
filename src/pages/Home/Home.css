@@ -44,6 +44,7 @@ main#mainBanner{
 /* section WhoIm */
 section#whoIm{
     padding: 8% 0;
+    /* funcionou ? */
     background-color: #000000;
     box-shadow: inset 0 -6px 4px 0px rgba(0, 0, 0, .25);
     animation: opacity-visible 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 2s backwards;
