@@ -7,6 +7,8 @@ import About from './pages/About/About';
 import 'bootstrap/dist/css/bootstrap.min.css';  
 import { HashRouter, Routes, Route } from 'react-router-dom';
 
+
+//gitpage
 export default function App() {
   return (
     <HashRouter>
