@@ -18,7 +18,7 @@ export default function Navbar() {
                 </Link>
                 <div className='navMenu'>
                     <Link to='/Projects'>Projetos</Link>
-                    <Link to='/About'>Sobre</Link>
+                    {/* <Link to='/About'>Sobre</Link> */}
                     {/* <Link to='/Blog'>Blog</Link> */}
                     <Link to='/Contact'>Contato</Link>
                 </div>  
@@ -30,7 +30,7 @@ export default function Navbar() {
                         <div className='navClose' onClick={toggleMenu}>
                             <img src={'assets/icons/close.svg'} alt='closeIcon'></img></div>
                         <Link to='/Projects'style={{borderTop: '1px solid'}}>Projetos</Link>
-                        <Link to='/About'>Sobre</Link>
+                        {/* <Link to='/About'>Sobre</Link> */}
                         {/* <Link to='/Blog'>Blog</Link> */}
                         <Link to='/Contact'>Contato</Link>
                     </div>

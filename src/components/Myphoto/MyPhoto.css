@@ -1,6 +1,5 @@
 /* Desktop Screen */
 div.MyPhoto{
-    width: 30%;
     margin:  0 51px 0 7%;
     text-align: right;
     position: relative;
@@ -28,7 +27,7 @@ div.MyPhoto .borderPhoto{
     height: 0;
 }
 @media screen and (max-width: 992px ), (max-height: 520px){
-	.whoImContent > div.MyPhoto{
+	div.ContainerContent > div.MyPhoto{
 		height: 0;
         overflow: hidden;
         display: none;

@@ -1,8 +1,9 @@
 div.technologies{
     display: flex;
-    width: 50%;
+    width: 80%;
     align-items: flex-start;
     align-content: flex-start;
+    justify-content: center;
     gap: 5px;
     flex-wrap: wrap;
 }
