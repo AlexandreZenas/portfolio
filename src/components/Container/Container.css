@@ -1,0 +1,82 @@
+.container{
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+section#containerMain{
+    width: 100%;
+    background-color: #FCFCFC;
+    padding: 5% 0;
+}
+#containerMain div.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#containerMain div.containerMainTitles{
+    width: 50%;
+    padding:0 0 0 10px;
+    margin-bottom: 5%;
+    animation: slide-right 1.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s backwards;
+}
+    .containerMainTitles h1{
+        color: rgba(22, 22, 22, 0.85);
+        font-family: Playfair Display;
+        font-size: 6.5rem;
+        font-weight: 700;
+    }
+    .containerMainTitles p{
+        color: #6F6F6F;
+        font-family: Playfair Display;
+        font-size: 1.5rem;
+        width: 80%;
+        font-weight: 400;
+    }
+#containerMain div.containerMainImage{
+    width: 50%;
+    height: 450px;
+    animation: slide-left .8s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s backwards;
+}
+    div.containerMainImage img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        object-position: center;
+    }
+@media screen and (max-width: 991px ), (max-height: 520px) {
+    #containerMain div.container{
+        flex-direction:column;
+        justify-content: center;
+        margin: 10vh auto;
+    }
+    #containerMain div.containerMainTitles{
+        width: 100%;
+    }
+    #containerMain div.containerMainImage{
+        width: 80%;
+    }
+    .containerMainTitles h1{
+        font-size: 5rem;
+    }
+    .containerMainTitles p{
+        font-size: 1.5rem;
+        width: 80%;
+        margin: 0;
+    }
+        div.containerMainImage img{
+            width: 100%;
+            height: 100%;
+        }
+}
+@media screen and (max-width: 768px ), (max-height: 520px) {
+    .containerMainTitles p{
+        font-size: 1.5rem;
+        width: 95%;
+        margin: 0;
+    }
+}
+@media screen and (max-width: 492px ), (max-height: 520px) {
+    .containerMainTitles h1{
+        font-size: 4rem;
+    }
+}

@@ -1,0 +1,64 @@
+.differentials{
+    grid-gap: 20px;
+    margin: 5% 0 2% 0;
+}
+.differentials button.slick-arrow{
+    display: none !important;
+}
+.differentials div.differentialsContent{
+    margin: 3% 0 25% 0;
+}
+.differentialsContent img{
+    height: 40px;
+    margin-bottom: 5px;
+}
+.differentialsContent h3{
+    margin: 0;
+    color: #292929;
+    font-size: .7rem;
+    font-weight: 400;
+    letter-spacing: 1.156px;
+    text-transform:uppercase;
+}
+.differentialsContent p{
+    margin: 0;
+    color: #999;
+    font-size: .7rem;
+    font-weight: 300;
+    letter-spacing: 0.26px;
+}
+
+@media screen and (max-width: 992px ), (max-height: 520px) {
+    /* div.differentials {
+        grid-template-columns: repeat(2, 1fr);
+    } */
+    .differentials div.differentialsContent{
+        align-items: center;
+        text-align: center; 
+       }
+       .differentialsContent img{
+        margin: 0 auto;
+    }
+}
+  @media screen and (max-width: 480px) {
+    /* div.differentials {
+        grid-template-columns: 1fr; 
+    } */
+    .differentials ul{
+        margin-bottom: 8%;
+    }
+    .differentials div.differentialsContent{
+
+        display: flex;
+    }
+    .differentialsContent img{
+        margin: 0 auto;
+    }
+    .differentialsContent h3{
+        color: #878787;
+        font-size: 1rem;
+    }
+    .differentialsContent p{
+        font-size: .8rem; 
+    }
+  }

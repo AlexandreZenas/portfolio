@@ -1,0 +1,25 @@
+footer#footer{
+    height: 120px;
+    width: 100%;
+    background-color: #6F6F6F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: opacity-visible 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 2s backwards;
+}
+
+.footerTitle h2{
+    margin: 0;
+    color: #EEEEED;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+@media screen and (max-width: 480px) {
+    footer#footer{
+        height: 75px;
+    }
+    .footerTitle h2{
+        font-size: 1rem;
+    }
+}
