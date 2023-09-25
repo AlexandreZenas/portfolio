@@ -3,9 +3,10 @@ import Technologies from '../../components/Technologies/Technologies';
 import Differentials from '../../components/Differentials/Differentials';
 import { dados } from '../../mocks/mocks';
 import Cases from '../../components/Cases/Cases';
-import Navbar from '../Navbar/Navbar';
+// import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer';
 import React, {useState, useRef, useEffect} from 'react';
+import EmailForm from '../../components/EmailForm/EmailForm';
 import './Home.css';
 import '../../components/animations/KeyFrames.css'
 
@@ -36,13 +37,13 @@ export default function Home() {
 
     return (
     <>
-        <Navbar/>
+        {/* <Navbar/>  deixei o banner principal com 100vh  */}
         <main id='mainBanner'   >
             <div className='container'>
                 <div className='mainTitles'>
                     <h1>Alexandre Zenas</h1>
                     <h2>Desenvolvedor</h2> <h2>&</h2><h2>Designer</h2>
-                    <p>Especializado em programação Front-End e <br></br>
+                    <p>Especializado em programação Front-End e
                     Designer de interfaces.</p>
                 </div>
             </div>
@@ -82,8 +83,16 @@ export default function Home() {
                     <div className='samplesLine'></div>
                 </div>
                 <div className='sampleCases'>
-                    {dados.slice(0 ,3).map((item, index) => <Cases link={item.link} image={item.image} title={item.title} text={item.text} key={index}/>)}
+                    {dados.slice().map((item, index) => <Cases link={item.link} image={item.image} title={item.title} text={item.text} key={index}/>)}
                 </div>
+            </div>
+        </section>
+        <section id='sendEmail'>
+            <div className='container'>
+                <div className='sendEmailTitle'>
+                    <h2>Me envie um email</h2>
+                </div>
+                <EmailForm/>
             </div>
         </section>
         <Footer/>

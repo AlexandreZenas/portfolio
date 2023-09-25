@@ -1,9 +1,9 @@
-.navBar{
+/* .navBar{
     background-color: #110C01;
     height: 80px ;
     color: #EEEEED ;
     animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) .5s backwards;
-}
+} */
   .navBar nav.navContainer{
     margin: 0 auto;
     padding: 0 5%;
