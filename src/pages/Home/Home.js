@@ -42,7 +42,7 @@ export default function Home() {
             <div className='container'>
                 <div className='mainTitles'>
                     <h1>Alexandre Zenas</h1>
-                    <h2>Desenvolvedor</h2> <h2>&</h2><h2>Designer</h2>
+                    <h2>Desenvolvedor</h2><h2>web</h2>
                     <p>Especializado em programação Front-End e
                     Designer de interfaces.</p>
                 </div>
@@ -53,22 +53,22 @@ export default function Home() {
                 <div className={`whoImContent ${sliderAnimation}`} ref={whoInContentRef}>
                     <div className='ContainerContent'>
                         <MyPhoto/>
-                        <div className='Skills'>
+                        {/* <div className='Skills'>
                                 <h1>Skills e Power Up's</h1>
                                 <Technologies/>
-                        </div>
+                        </div> */}
                     </div>                    
                     <div className='whoImtitles'>
                         <h1>Um pouquinho sobre mim</h1>
                         <MyPhoto/>
                         <p>
-                        Minha jornada no universo da programação e design começou durante a pandemia, quando o lockdown me permitiu mergulhar em madrugadas repletas de códigos, descobrindo um amor pela criação de belas interfaces e pela resolução de problemas de forma criativa e, tornando-me agora um entusiasta em tecnologia.
+                        Minha jornada no universo da programação começou em madrugadas repletas de códigos, descobrindo um prazer na criação de interfaces e pela resolução de problemas de forma criativa, tornando-me agora um entusiasta em tecnologia.
                         </p>                                        
                         <p>
-                        Cursei Análise e Desenvolvimento de Sistemas na Universidade Veiga de Almeida, onde adquiri uma base sólida em desenvolvimento web. Além disso, busquei constantemente aprimorar minhas habilidades por meio de diversos cursos de programação front-end, que retratam tecnologias como javascript e react.js, me permitindo criar funcionalidades e experiências interativas.
+                        Cursei Análise e Desenvolvimento de Sistemas na Universidade Veiga de Almeida, onde adquiri uma base sólida em lógica de programação. Além disso, busquei constantemente aprimorar minhas habilidades por meio de diversos cursos de programação front-end, que retratam tecnologias como javascript e react.js, me permitindo criar funcionalidades, componentes e experiências interativas.
                         </p>                                        
                         <p>
-                        Agora, estou empenhado em usar meus conhecimentos e paixões para ajudar as pessoas como freelancer de front-end. Estou entusiasmado para trabalhar em projetos desafiadores, criar interfaces incríveis e ajudar a transformar ideias em realidade. 
+                        Agora, estou empenhado em expandir meus conhecimentos em busca de novas tecnologias e ajudar as pessoas na resolução de problemas. Estou entusiasmado para trabalhar em projetos que me desafiem a crescer, criar interfaces incríveis e ajudar a transformar ideias em realidade. 
                         </p>                                        
                     </div>
                 </div>

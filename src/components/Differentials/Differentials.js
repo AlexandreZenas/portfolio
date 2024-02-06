@@ -1,4 +1,5 @@
 import React from 'react';
+
 import Slider from 'react-slick';
 
 import './Differentials.css';
@@ -75,8 +76,8 @@ export default function Differentials () {
             </div>
             <div className='differentialsContent'>
                 <img src={'assets/icons/gears.svg'} alt='icon gears'/>
-                <h3>Metodologias ágeis</h3>
-                <p>Planejamentos otimizados que dinamizam<br></br>
+                <h3>Funcionalidades personalizadas</h3>
+                <p>Automatização de processos que <br></br>dinamizam
                 o fluxo de produção.</p>
             </div>
         </Slider>
