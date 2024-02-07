@@ -1,7 +1,7 @@
 export const dados = [
     {
         link: 'https://markts.vercel.app/',
-        image:'/images/markts.png',
+        image:'images/markts.png',
         title: 'Markts. - cópia ',
         text: ' Refiz do 0 a página inicial do site Markts, veja como ficou'
     },
@@ -13,19 +13,19 @@ export const dados = [
     },
     {
         link: 'https://alexandrezenas.github.io/RJTour/',
-        image:'/images/rjtour-print.png',
+        image:'public/images/rjtour-print.png',
         title: 'Scroll tiktok',
         text: 'Ao scrollar o mouse, as páginas ganham um efeito de folheamento.'
     },
     {
         link: 'https://alexandrezenas.github.io/UpGrade/',
-        image:'/images/upgrade-print.png',
+        image:'/public/images/upgrade-print.png',
         title: 'Video em loop',
         text: 'Manipulação de 2 videos, uma intro e outro em loop'
     },
     {
         link: '/',
-        image:'/images/backgroundBanner.jpg',
+        image:'./public/images/backgroundBanner.jpg',
         title: 'Em desenvolvimento',
         text: ':/'
     },
