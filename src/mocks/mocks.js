@@ -1,5 +1,11 @@
 export const dados = [
     {
+        link: 'https://markts.vercel.app/',
+        image:'assets/images/markts.png',
+        title: 'Markts. - cópia ',
+        text: ' Refiz do 0 a página inicial do site Markts, veja como ficou'
+    },
+    {
         link: 'https://alexandrezenas.github.io/impulseon/',
         image:'assets/images/animation-3d-print.png',
         title: 'Animação 3d',
@@ -16,12 +22,6 @@ export const dados = [
         image:'assets/images/upgrade-print.png',
         title: 'Video em loop',
         text: 'Manipulação de 2 videos, uma intro e outro em loop'
-    },
-    {
-        link: '/',
-        image:'assets/images/backgroundBanner.jpg',
-        title: 'Em desenvolvimento',
-        text: ':/'
     },
     {
         link: '/',
