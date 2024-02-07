@@ -2,7 +2,7 @@ import React from 'react';
 import './MyPhoto.css';
 
 export default function MyPhoto () {
-    const imagePath = '/images/myPhoto.jpg';
+    const imagePath = '/public/images/myPhoto.jpg';
 
     return(
         <div className='MyPhoto'>            

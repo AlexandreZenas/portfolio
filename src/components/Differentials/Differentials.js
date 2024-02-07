@@ -51,31 +51,31 @@ export default function Differentials () {
     return(
         <Slider className='differentials' {...settings}>
             <div className='differentialsContent'>
-                <img src={'/icons/code.svg'} alt='icon code'/>
+                <img src={'/public/icons/code.svg'} alt='icon code'/>
                 <h3>Clean code</h3>
                 <p>Manter um código limpo é fundamental <br></br>
                 para  um projeto de desenvolvimento</p>
             </div>
             <div className='differentialsContent'>
-                <img src={'/icons/laptop.svg'} alt='icon laptop'/>
+                <img src={'/public/icons/laptop.svg'} alt='icon laptop'/>
                 <h3>Interfaces de alta fidelidade</h3>
                 <p>Precisão na implementação do design, <br></br>
                 mantendo a integridade visual.</p>
             </div>
             <div className='differentialsContent'>
-                <img src={'/icons/paint.svg'} alt='icon paint'/>
+                <img src={'/public/icons/paint.svg'} alt='icon paint'/>
                 <h3>Design customizado</h3>
                 <p>Identidade e Profissionalismo é uma<br></br> 
                 chave para se destacar na multidão.</p>
             </div>
             <div className='differentialsContent'>
-                <img src={'/icons/animation.svg'} alt='icon gears animation'/>
+                <img src={'/public/icons/animation.svg'} alt='icon gears animation'/>
                 <h3>animações interativas</h3>
                 <p>Uma navegação dinâmica constrói uma <br></br>
                 conexão com o usuário.</p>
             </div>
             <div className='differentialsContent'>
-                <img src={'/icons/gears.svg'} alt='icon gears'/>
+                <img src={'/public/icons/gears.svg'} alt='icon gears'/>
                 <h3>Funcionalidades personalizadas</h3>
                 <p>Automatização de processos que <br></br>dinamizam
                 o fluxo de produção.</p>
