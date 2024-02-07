@@ -1,6 +1,7 @@
 import MyPhoto from '../../components/Myphoto/Myphoto';
-import Technologies from '../../components/Technologies/Technologies';
+
 import Differentials from '../../components/Differentials/Differentials';
+// import Technologies from '../../components/Technologies/Technologies';
 import { dados } from '../../mocks/mocks';
 import Cases from '../../components/Cases/Cases';
 // import Navbar from '../Navbar/Navbar';
@@ -72,7 +73,7 @@ export default function Home() {
                         </p>                                        
                     </div>
                 </div>
-                <Differentials/>
+                <Differentials></Differentials>
             </div>
         </section>
         <section id='samples'>
