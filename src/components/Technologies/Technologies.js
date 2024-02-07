@@ -1,6 +1,6 @@
 import './Technologies.css';
 
-export default function Technologies () {
+ function Technologies () {
     return(
         <div className='technologies'>
             <a href='https://react.dev/' target='blank' rel="noopener noreferrer">REACT</a>
@@ -13,3 +13,5 @@ export default function Technologies () {
         </div>
     );
 };
+
+export default Technologies
