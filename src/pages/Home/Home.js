@@ -1,7 +1,7 @@
 import MyPhoto from '../../components/Myphoto/Myphoto';
 
 import Differentials from '../../components/Differentials/Differentials';
-// import Technologies from '../../components/Technologies/Technologies';
+import Technologies from '../../components/Technologies/Technologies';
 import { dados } from '../../mocks/mocks';
 import Cases from '../../components/Cases/Cases';
 // import Navbar from '../Navbar/Navbar';
@@ -54,10 +54,10 @@ export default function Home() {
                 <div className={`whoImContent ${sliderAnimation}`} ref={whoInContentRef}>
                     <div className='ContainerContent'>
                         <MyPhoto/>
-                        {/* <div className='Skills'>
+                        <div className='Skills'>
                                 <h1>Skills e Power Up's</h1>
                                 <Technologies/>
-                        </div> */}
+                        </div>
                     </div>                    
                     <div className='whoImtitles'>
                         <h1>Um pouquinho sobre mim</h1>
