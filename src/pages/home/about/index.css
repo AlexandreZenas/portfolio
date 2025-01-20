@@ -1,0 +1,7 @@
+    .wrapper-line{
+        transition: 1s;        
+    }       
+    .wrapper-line:hover .line{
+        width: 100%;
+        transition: 1s ease ;        
+    }       
