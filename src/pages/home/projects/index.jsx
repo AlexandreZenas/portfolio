@@ -39,7 +39,7 @@ export function Projects(){
                     link={'vidraçariasilverglass.com.br'}
                     linkPath={'https://xn--vidraariasilverglass-70b.com.br/'}
                 />
-            </div>
+            </div> 
         </section>
     )
 }
