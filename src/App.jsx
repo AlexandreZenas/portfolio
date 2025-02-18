@@ -2,7 +2,8 @@ import { Navbar } from "./elements/navbar"
 import { About } from "./pages/home/about"
 import { Experience } from "./pages/home/experience"
 import { Hero } from "./pages/home/hero"
-import { Projects } from "./pages/home/projects"
+import { Portfolio } from "./pages/home/portfolio"
+
 
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
         <Hero />
         <About />
         <Experience />
-        <Projects />
+        <Portfolio />
 
       </main>
     </div>
